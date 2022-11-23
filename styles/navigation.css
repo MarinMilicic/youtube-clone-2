@@ -1,0 +1,25 @@
+.nav {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+}
+
+.nav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 74px;
+}
+
+.nav a:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.nav span {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
